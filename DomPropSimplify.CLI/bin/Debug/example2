@@ -1,0 +1,12 @@
+mr => ! ct 
+ct => ! mr
+gtr => ! fbr 
+fbr => ! gtr
+anesthesia => move_by_patlog & ! ct & gtr & ! fbr & ! moulding & ! adaptive_imaging & ! outpatient
+moulding => ct & ! mr & ! gtr & ! fbr & ! anesthesia & ! adaptive_imaging & ! outpatient
+adaptive_imaging => ! gtr & ! fbr & ! anesthesia & ! moulding & ! outpatient
+outpatient => ! move_by_patlog & ! gtr & ! fbr & ! anesthesia & ! moulding & ! adaptive_imaging
+move_by_patlog => !outpatient
+treatment => !(anesthesia) & !(adaptive_imaging) & !(moulding) & !(outpatient)
+---
+(!(anesthesia) & gtr) | (anesthesia)

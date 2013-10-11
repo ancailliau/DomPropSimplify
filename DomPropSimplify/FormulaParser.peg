@@ -1,0 +1,47 @@
+start = Start
+value = object
+namespace = DomPropSimplify
+using = System.Linq
+visibility = public
+debug = 
+
+Start := S DomProps '---' S Formulas
+    `value = new Tuple<List<Fact>, List<Formula>> (results[0].Value as List<Fact>, results[2].Value as List<Formula>);`
+
+DomProps := (Fact S)*
+    `value = results.Where(x => x.Value != null).Select(x => (Fact) x.Value).ToList();`
+
+Fact := And S '=>' S And
+    `var antecedant = ((results[0].Value as And).DNF).Clauses.Single ();
+     var consequent = ((results[2].Value as And).DNF).Clauses.Single ();
+     value = new Fact (antecedant, consequent);`
+
+Formulas := (Formula S)*
+    `value = results.Where(x => x.Value != null).Select(x => x.Value as Formula).ToList();`
+
+Formula := Or
+    `value = results[0].Value;`
+           
+Or := And (S '|' S And)*
+    `value = new Or (results.Where(x => x.Value != null).Select (x => x.Value as Formula).ToArray ());`
+    
+And := Terminal (S '&' S Terminal)*
+    `value = new And (results.Where(x => x.Value != null).Select (x => x.Value as Formula).ToArray ());`
+        
+Terminal := Parenthesis / Not / Variable
+    `value = results[0].Value;`
+
+Parenthesis := '(' S Formula S ')' 
+    `value = results[1].Value;`
+
+Not := '!' S Terminal
+    `value = new Not (results[1].Value as Formula);`
+
+Variable := ([a-zA-Z] [a-zA-Z0-9_-]*)
+    `value = new Var (text);`
+    
+# Spaces and comments
+
+S := (Space* Comment+ Space*)+ / Space* `text = null`
+Space := [ \t\r\n] `;` `expected = "whitespace"`
+Comment := '#' [^\r\n]* `text = null` `expected = "comment"`

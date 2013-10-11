@@ -1,0 +1,35 @@
+start = Start
+value = DomPropSimplify.ParsedElement
+namespace = DomPropSimplify
+using = System.Linq
+visibility = public
+debug = 
+
+Start := S Formula S;
+
+Formula := Or
+    `value = results[0].Value;`
+           
+Or := And (S '|' S And)*
+    `value = new ParsedOr (results.Select (x => x.Value));`
+    
+And := Terminal (S '&' S Terminal)*
+    `value = new ParsedAnd (results.Select (x => x.Value));`
+        
+Terminal := Parenthesis / Not / Variable
+    `value = results[0].Value;`
+
+Parenthesis := '(' S Formula S ')' 
+    `value = results[1].Value;`
+
+Not := '!' S Terminal
+    `value = new ParsedNot (results[1].Value);`
+
+Variable := ([a-zA-Z] [a-zA-Z0-9_-]*)
+    `value = new ParsedVariable (text);`
+    
+# Spaces and comments
+
+S := (Space* Comment+ Space*)+ / Space* `text = null`
+Space := [ \t\r\n] `;` `expected = "whitespace"`
+Comment := '#' [^\r\n]* `text = null` `expected = "comment"`
