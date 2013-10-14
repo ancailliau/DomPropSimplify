@@ -139,6 +139,11 @@ namespace DomPropSimplify
 				if (bestCandidate.Length < 2) 
 					break;
 
+				if (heuristically) {
+					Solutions = new HashSet<DNFOr> (new DNFOr[] { bestCandidate });
+					roundSolutions = new HashSet<DNFOr> (new DNFOr[] { bestCandidate });
+				}
+
 				done = true;
 				previousRound = roundSolutions;
 				roundSolutions = new HashSet<DNFOr> ();

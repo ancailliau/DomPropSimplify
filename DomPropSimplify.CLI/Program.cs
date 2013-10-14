@@ -61,7 +61,8 @@ namespace DomPropSimplify.CLI
 				input = File.ReadAllText (extra[0]);
 
 			} else {
-				help = true;
+				input = Console.In.ReadToEnd();
+
 			}
 
 			if (help) {
