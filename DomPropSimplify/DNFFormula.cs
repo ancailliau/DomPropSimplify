@@ -21,6 +21,13 @@ namespace DomPropSimplify
 			}
 		}
 
+		public DNFOr Replace (DNFAnd clause, DNFAnd newClause)
+		{
+			var n = new DNFOr (Clauses.Where (x => x != clause).ToArray ());
+			n.Clauses.Add (newClause);
+			return n;
+		}
+
 		public DNFOr (params DNFAnd[] nodes)
 		{
 			Clauses = new HashSet<DNFAnd> (nodes);

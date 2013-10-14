@@ -14,7 +14,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -45,10 +45,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\DomPropSimplify.Tests\DomPropSimplify.Tests.csproj">
-      <Project>{19768EAC-B8BF-4D83-9F64-4C88C1B17E0C}</Project>
-      <Name>DomPropSimplify.Tests</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DomPropSimplify\DomPropSimplify.csproj">
       <Project>{F94135AC-E3B6-4861-9A49-F0E164AD2B3E}</Project>
       <Name>DomPropSimplify</Name>

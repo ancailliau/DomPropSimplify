@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results />
   <Tests>
     <TestRecord Name="DomPropSimplify">
+      <Results />
       <Tests>
         <TestRecord Name="Tests">
+          <Results />
           <Tests>
             <TestRecord Name="NUnitTestClass">
+              <Results />
               <Tests>
                 <TestRecord Name="Test4">
                   <Results>
@@ -66,6 +70,766 @@ Execution time: 0.03ms</Message>
                       <ConsoleError />
                     </UnitTestResult>
                   </Results>
+                  <Tests />
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+            <TestRecord Name="TestNew">
+              <Tests>
+                <TestRecord Name="TestCase">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:39:19</TestDate>
+                      <Status />
+                      <Passed>0</Passed>
+                      <Errors>1</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:39:39</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:39:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:40:13</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:41:36</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:42:02</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:44:16</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T13:55:57</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="TestCase(&quot;a =&gt; b --- a&amp;b&quot;)">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:39:19</TestDate>
+                          <Status />
+                          <Passed>0</Passed>
+                          <Errors>1</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>System.InvalidOperationException : Sequence contains more than one matching element</Message>
+                          <StackTrace>  at System.Linq.Enumerable.Single[SmartFact] (IEnumerable`1 source, System.Func`2 predicate, Fallback fallback) [0x00038] in /private/tmp/source/bockbuild-xamarin/profiles/mono-mac-xamarin/build-root/mono-3.2.3/mcs/class/System.Core/System.Linq/Enumerable.cs:2370 
+  at System.Linq.Enumerable.Single[SmartFact] (IEnumerable`1 source) [0x00006] in /private/tmp/source/bockbuild-xamarin/profiles/mono-mac-xamarin/build-root/mono-3.2.3/mcs/class/System.Core/System.Linq/Enumerable.cs:2387 
+  at DomPropSimplify.Tests.TestNew.TestCase (System.String input) [0x00016] in /Users/acailliau/Projects/DomPropSimplify/DomPropSimplify.Tests/TestNew.cs:17 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00054] in /private/tmp/source/bockbuild-xamarin/profiles/mono-mac-xamarin/build-root/mono-3.2.3/mcs/class/corlib/System.Reflection/MonoMethod.cs:230 </StackTrace>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:39:39</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                          <ConsoleOutput>(a) =&gt; (b)
+System.Collections.Generic.List`1[DomPropSimplify.DNFOr]
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:39:57</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                          <ConsoleOutput>(a) =&gt; (b)
+((a&amp;b))
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                    </TestRecord>
+                    <TestRecord Name="TestCase(&quot;a =&gt; b --- a&quot;)">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:40:13</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                          <ConsoleOutput>(a) =&gt; (b)
+((a&amp;b))
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:41:36</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                          <ConsoleOutput>Adding csq of smartFact : 
+(a) =&gt; (b)
+---
+((a&amp;b))
+Adding csq of smartFact : 
+(!b) =&gt; (!a)
+---
+((a))
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                    </TestRecord>
+                    <TestRecord Name="TestCase(&quot;a =&gt; b &amp; c --- a&quot;)">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:42:02</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                          <ConsoleOutput>Adding csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b&amp;c))
+((a&amp;b))
+((a&amp;c))
+Adding csq of smartFact : 
+(!b) =&gt; (!a)
+---
+((a))
+Adding csq of smartFact : 
+(!c) =&gt; (!a)
+---
+((a))
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:44:16</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.12ms</Message>
+                          <ConsoleOutput>Adding csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b&amp;c))
+((a&amp;b))
+((a&amp;c))
+Adding csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Adding csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T13:55:57</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                          <ConsoleOutput>Adding csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b&amp;c))
+((a&amp;b))
+((a&amp;c))
+Adding csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Adding csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+                <TestRecord Name="TestCase2">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:45:24</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.15ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:46:16</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:52:29</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T11:54:50</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T12:00:58</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T13:49:33</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T13:51:53</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T13:52:18</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-10-11T13:53:12</TestDate>
+                      <Status />
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="TestCase2(&quot;a =&gt; b &amp; c --- a &amp; b&quot;)">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:45:24</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.13ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b))
+((a))
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+((a&amp;b))
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+((a&amp;b))
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:46:16</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.11ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b))
+((a))
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:52:29</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T11:54:50</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.09ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b))
+((a))
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T12:00:58</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.07ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T13:49:33</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.08ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T13:51:53</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.07ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                    </TestRecord>
+                    <TestRecord Name="TestCase2(&quot;a =&gt; b &amp; c --- a &amp; b | a &amp; b &amp; c&quot;)">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T13:52:18</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.08ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a&amp;b&amp;c)|(a))
+((a&amp;b)|(a))
+((a&amp;b)|(a&amp;c))
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-10-11T13:53:12</TestDate>
+                          <Status />
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.10ms</Message>
+                          <ConsoleOutput>Removing csq of smartFact : 
+(a) =&gt; (b&amp;c)
+(a) =&gt; (b)
+(a) =&gt; (c)
+---
+((a))
+((a))
+((a&amp;b)|(a&amp;c))
+((a&amp;b))
+Removing csq of smartFact : 
+(!b) =&gt; (!a)
+---
+Removing csq of smartFact : 
+(!c) =&gt; (!a)
+---
+</ConsoleOutput>
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                    </TestRecord>
+                  </Tests>
                 </TestRecord>
               </Tests>
             </TestRecord>

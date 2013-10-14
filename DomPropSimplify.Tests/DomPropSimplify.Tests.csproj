@@ -37,9 +37,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
-    <Compile Include="NUnitTestClass.cs" />
-    <Compile Include="TestParsing.cs" />
+    <Compile Include="TestNew.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -47,5 +45,14 @@
       <Project>{F94135AC-E3B6-4861-9A49-F0E164AD2B3E}</Project>
       <Name>DomPropSimplify</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DomPropSimplify.CLI\DomPropSimplify.CLI.csproj">
+      <Project>{0C63FABC-0AA3-4618-8E72-3F7A939EB3B8}</Project>
+      <Name>DomPropSimplify.CLI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test.cs" />
+    <None Include="NUnitTestClass.cs" />
+    <None Include="TestParsing.cs" />
   </ItemGroup>
 </Project>
